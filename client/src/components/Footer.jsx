@@ -79,8 +79,27 @@ function Footer() {
             <Typography
                 variant="caption"
                 color="text.secondary"
+                display="block"
+                sx={{ mt: 1 }}
             >
                 Developed by Sathvik HN
+            </Typography>
+
+            <Typography
+                variant="caption"
+                color="text.secondary"
+                display="block"
+                sx={{ mt: 1 }}
+            >
+                Built for{" "}
+                <Link
+                    href="https://digitalheroesco.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    underline="hover"
+                >
+                    Digital Heroes Training Task
+                </Link>
             </Typography>
         </Box>
     );
