@@ -1,0 +1,117 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  background: #f4f6f8;
+  font-family: "Roboto", "Segoe UI", sans-serif;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Smooth animation */
+
+* {
+  transition: all 0.25s ease;
+}
+
+/* Dashboard Cards */
+
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Page Heading */
+
+.page-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  color: #666;
+}
+
+/* Material UI Paper */
+
+.MuiPaper-root {
+  border-radius: 16px !important;
+}
+
+/* Charts */
+
+.chart-container {
+  padding: 20px;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 50px;
+  padding: 25px;
+  text-align: center;
+  color: gray;
+}
+
+/* Loading */
+
+.loading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+/* DataGrid */
+
+.MuiDataGrid-root {
+  border-radius: 12px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.dashboard-card {
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+}
